@@ -36,7 +36,7 @@ var waypoint = new Waypoint({
 var waypoint2 = new Waypoint({
     element: document.getElementById('habilidades'),
     handler: function () {
-        $('.cards').addClass('animate__animated animate__flipInX')
+        $('.cards').addClass('animate__animated animate__fadeInUp')
         $('.cards').css('opacity', 1);
     },
     offset: '30%'
