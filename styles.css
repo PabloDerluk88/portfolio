@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-content {
-    background-image: url(/images/foxbg.png);
+    background-image: url(../images/foxbg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -64,14 +64,14 @@ section {
 
 .fox-logo {
     display: flex;
-    content: url(/images/foxframe1.png);
+    content: url(../images/foxframe1.png);
     width: 50%;
     height: auto;
     padding-left: 20px;
 }
 
 .fox-logo:hover {
-    content: url(/images/foxframe2.png);
+    content: url(../images/foxframe2.png);
 }
 
 .enlaces {
@@ -222,43 +222,43 @@ section {
 }
 
 .c1 {
-    background-image: url(/images/html-5.svg);
+    background-image: url(../images/html-5.svg);
     left: 1%;
     top: -90%;
 }
 
 .c2 {
-    background-image: url(/images/css-5.svg);
+    background-image: url(../images/css-5.svg);
     left: 15%;
     top: -40%;
 }
 
 .c3 {
-    background-image: url(/images/logo-javascript.svg);
+    background-image: url(../images/logo-javascript.svg);
     left: 30%;
     top: -75%;
 }
 
 .c4 {
-    background-image: url(/images/react-1.svg);
+    background-image: url(../images/react-1.svg);
     left: 45%;
     top: -110%;
 }
 
 .c5 {
-    background-image: url(/images/node-js-logo.svg);
+    background-image: url(../images/node-js-logo.svg);
     left: 60%;
     top: -145%;
 }
 
 .c6 {
-    background-image: url(/images/bootstrap-4.svg);
+    background-image: url(../images/bootstrap-4.svg);
     left: 75%;
     top: -110%;
 }
 
 .c7 {
-    background-image: url(/images/github-octocat.svg);
+    background-image: url(../images/github-octocat.svg);
     left: 89%;
     top: -80%;
 }
@@ -266,7 +266,7 @@ section {
 .project-1 {
     width: 90%;
     height: 50vh;
-    background-image: url(/images/computertest.png);
+    background-image: url(../images/computertest.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
