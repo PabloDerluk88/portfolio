@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 700;
 }
+
 body:before {
     content: "";
     display: block;
@@ -27,7 +28,8 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
 .header-content {
     height: 100vh;
     width: 100%;
@@ -126,7 +128,8 @@ section {
     text-transform: uppercase;
     font-weight: 700;
 }
-#about, #portfolio{
+
+#about, #portfolio {
     background-color: whitesmoke;
     box-shadow: inset 0px 2px 6px 2px #080808;
 }
@@ -147,6 +150,11 @@ section {
 
 .about-me p, #about-p, #portfolio p, #contact p, footer div p {
     color: #777777;
+}
+
+#about-p, .text-project p, .text-project-2 p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .list-inline {
@@ -285,6 +293,16 @@ section {
     border-radius: 8px;
 }
 
+.project-2 {
+    width: 90%;
+    height: 50vh;
+    background-image: url(./images/white-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
 #portfolio a, #portfolio a p {
     color: #020202;
     text-align: center;
@@ -335,7 +353,7 @@ footer p {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .section-heading, .s1, .s2, #portfolio h2, #contact h2 {
         font-size: 20px;
     }
@@ -402,18 +420,28 @@ footer p {
         top: 125%;
         letter-spacing: 10px
     }
-    .project-1 {
+    #secondProject {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .project-1, .project-2 {
         height: 350px;
     }
     .middle-bar {
         display: none;
     }
-    .text-project {
+    .text-project, .text-project-2 {
         padding-top: 30px;
         padding-left: 15px !important;
     }
     .contact-1, .contact-2, .contact-3 {
         padding-bottom: 30px;
+    }
+    #secondProject {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
@@ -453,7 +481,13 @@ footer p {
         top: -30%;
     }
 }
-
+@media screen and (max-width:824px){
+    #secondProject {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
 @media screen and (min-width:960px) {
     .middle-bar {
         display: flex;
@@ -488,7 +522,7 @@ footer p {
 }
 
 @media screen and (width:1024px) {
-    .project-1 {
+    .project-1, .project-2{
         height: 240px;
     }
     .c1 {

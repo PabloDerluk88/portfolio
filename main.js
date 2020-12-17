@@ -4,6 +4,8 @@ $('#about-p').css('opacity', 0);
 $('.cards').css('opacity', 0);
 $('.project-1').css('opacity', 0);
 $('.text-project').css('opacity', 0);
+$('.project-2').css('opacity', 0);
+$('.text-project-2').css('opacity', 0);
 
 let hamburguer = document.getElementById("hamburguer");
 let enlaces = document.getElementById('enlaces');
@@ -51,6 +53,17 @@ var waypoint3 = new Waypoint({
 
     },
     offset: '30%'
+});
+
+var waypoint4 = new Waypoint({
+    element: document.getElementById('secondProject'),
+    handler: function () {
+        $('.project-2').addClass('animate__animated animate__fadeInRight')
+        $('.text-project-2').addClass('animate__animated animate__fadeInLeft')
+
+
+    },
+    offset: '50%'
 });
 
 let icons = document.querySelectorAll("i")
